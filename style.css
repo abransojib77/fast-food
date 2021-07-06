@@ -12,6 +12,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -29,6 +30,10 @@ section{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+    background-image: url(images/7.png);
+   background-repeat: no-repeat;    
+}
+
