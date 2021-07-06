@@ -10,7 +10,7 @@ body{
     margin: 0%;
     
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -35,5 +35,20 @@ section{
 .dream-big{
     background-image: url(images/7.png);
    background-repeat: no-repeat;    
+}
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#new-one{
+ border-image: linear-gradient blue;
+ border-image-slice: 5px;
+}
+footer p{
+    text-align: center;
 }
 
